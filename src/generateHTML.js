@@ -3,7 +3,7 @@ const generateManager = function (manager) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
-            <div class="card-header">
+            <div class="card-header bg-primary text-white">
                 <h3>${manager.name}</h3>
                 <h4>Manager</h4><i class="fa-solid fa-mug-hot"></i>
             </div>
@@ -24,7 +24,7 @@ const generateEngineer = function (engineer) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
-            <div class="card-header">
+            <div class="card-header bg-primary text-white"">
                 <h3>${engineer.name}</h3>
                 <h4>Engineer</h4><i class="fa-solid fa-glasses"></i>
             </div>
@@ -45,7 +45,7 @@ const generateIntern = function (intern) {
     return `
     <div class="col-4 mt-4">
         <div class="card h-100">
-            <div class="card-header">
+            <div class="card-header bg-primary text-white"">
                 <h3>${intern.name}</h3>
                 <h4>Intern</h4><i class="fa-solid fa-user-graduate"></i>
             </div>
@@ -99,17 +99,14 @@ const generateWorkForce = function (employeeCard) {
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>My Team</title>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@600&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
         <header>
-            <nav class="navbar" id="navbar">
-                <span class="navbar-brand mb-0 h1 w-100 height: 100px; text-center bg-danger text-white" id="navbar-text">Team Profile</span>
-            </nav>
+                <h1 class="display-1 mb-0 h1 w-100 height: 100px; text-center bg-danger text-white" id="navbar-text">My Team</h1>
         </header>
         <main>
             <div class="container">
