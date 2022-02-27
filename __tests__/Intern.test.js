@@ -1,10 +1,8 @@
-const { expect } = require('@jest/globals');
-const { test } = require('picomatch');
 const Intern = require('../lib/Intern');
 
 // create Intern object
 test('creates Intern object', () => {
-    const intern = Intern('Courtez', 15, 'courtezcannady@gmail.com', 'TUI');
+    const intern = new Intern('Courtez', 15, 'courtezcannady@gmail.com', 'TUI');
     expect(intern.university).toEqual(expect.any(String));
 });
 
