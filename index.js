@@ -173,7 +173,7 @@ const newEmployee = () => {
             employee = new Engineer (name, id, email, github);
             console.log(employee);
         }else if (job === 'Intern') {
-            employee = new Intern (name, id, email, school);
+            employee = new Intern (name, id, email, university);
             console.log(employee);
         }
         myTeam.push(employee);
