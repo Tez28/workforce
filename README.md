@@ -17,7 +17,7 @@ https://github.com/Tez28/workforce
 
 ## Video Link
 
-https://drive.google.com/file/d/1uUI-76Zd9k49sPw42ZxypQkNSuBIPhdY/view
+https://drive.google.com/file/d/1uUI-76Zd9k49sPw42ZxypQkNSuBIPhdY/view?usp=sharing
 
 ## App Image
 
