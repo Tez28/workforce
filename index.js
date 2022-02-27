@@ -135,7 +135,7 @@ const newEmployee = () => {
             type: 'input',
             name: 'github',
             message: 'Please enter the Engineers github name. (Required)',
-            when: (input) => input.function === 'Engineer',
+            // when: (input) => input.function === 'Engineer',
             validate: (githubInput) => {
                 if (githubInput) {
                     return true;
@@ -149,7 +149,7 @@ const newEmployee = () => {
             type: 'input',
             name: 'university',
             message: 'Please enter a University. (Required)',
-            when: (input) => input.function === 'Intern',
+            // when: (input) => input.function === 'Intern',
             validate: universityInput => {
                 if (universityInput) {
                     return true;
