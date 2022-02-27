@@ -91,7 +91,7 @@ generateHTML = (data) => {
 }
 
 // call to generate formatted page
-const generateTeamPage = function (employeeCard) {   
+const generateWorkForce = function (employeeCard) {   
     return`
     <!DOCTYPE html>
     <html lang="en">
