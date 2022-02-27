@@ -184,3 +184,28 @@ const newEmployee = () => {
         }
     })
 };
+
+// writes file to generateHTML
+const writeFile = data => {
+    fs.writeFile('./dist/index.html', data, err => {
+        if (err) {
+            console.log(err);
+            return;
+            // HTML generated successfully
+        } else {
+            console.log('Team successfully created!')
+        }
+    })
+};
+
+newManager()
+    .then(newEmployee)
+    .then(myTeam => {
+        return generateHTML(myTeam);
+    })
+    .then(pageHTML => {
+        return writeFile(pageHTML);
+    })
+    .catch(err => {
+        console.log(err);
+    });
